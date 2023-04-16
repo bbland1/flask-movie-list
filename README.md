@@ -11,15 +11,23 @@ Installing from the [requirements.txt](./requirements.txt) handles most of the r
 1. (Optional) [Setup a virtual environment](https://docs.python.org/3/tutorial/venv.html#creating-virtual-environments) and activate it to install requirements into the virtual environment to run instead of your computers global environment.
 
 2. Install the project requirements.
-```shell pip install -r requirements.txt```
+```shell 
+pip install -r requirements.txt
+```
 
 3. Create a `.env` using the `.env.sample` file as a guide. Change `THEMOVIEDB_API_KEY`, `DB_STRING`, and `SECRET_KEY` to the proper information of your instance of the SQLite database.
 
 - `SECRET_KEY` can be set using this command
-```shell  python -c 'import secrets; print(secrets.token_hex())'```
+```shell  
+python -c 'import secrets; print(secrets.token_hex())'
+```
 
 4. Run the migrations
-```shell flask db upgrade```
+```shell 
+flask db upgrade
+```
 
 5. Run the local server: (or use VS Code "Run" button and select "Run server")
-```shell flask run```
+```shell 
+flask run
+```
