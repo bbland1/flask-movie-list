@@ -1,10 +1,20 @@
 # Python (Flask) Web App with SQLite Database
 
-This is a Python web app that uses the Flask framework that uses a SQLite DB to persist the data. This isn't a deployed app, but it is good use for practice of SQLAlchemy/SQL and the Flask framework.
+This is a Python web app that uses the Flask framework that uses a SQLite DB to persist the data. This isn't a deployed app, but it is good use for practice of SQLAlchemy/SQL and the Flask framework. It allowed me and would allowed others to get an understating on decorators, routes and connecting to a database.
 
 ## Requirements
 
 Installing from the [requirements.txt](./requirements.txt) handles most of the requirements, but you will also need to make sure to have a [The Movie DB](https://www.themoviedb.org) developer account to access an API key to complete the searches.
+
+## Built With
+* [Flask](https://flask.palletsprojects.com/en/2.2.x/)
+* [SQLAlchemy](https://www.sqlalchemy.org)
+* [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/)
+* [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/)
+* [Flask-Bootstrap](https://pythonhosted.org/Flask-Bootstrap/)
+* [python-dotenv](https://pypi.org/project/python-dotenv/)
+* [flask-wtf](https://flask-wtf.readthedocs.io/en/1.0.x/)
+
 
 ### Local Development
 
@@ -31,3 +41,6 @@ flask db upgrade
 ```shell 
 flask run
 ```
+
+### License
+See the [LICENSE](./LICENSE) file for license rights and limitations (MIT).
