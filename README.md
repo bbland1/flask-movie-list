@@ -1,5 +1,9 @@
 # Python (Flask) Web App with SQLite Database
 
+![License](https://img.shields.io/github/license/bbland1/flask-sqlite-movie-list?style=plastic)
+![Top Language](https://img.shields.io/github/languages/top/bbland1/flask-sqlite-movie-list?style=plastic)
+![Contributors](https://img.shields.io/github/contributors-anon/bbland1/flask-sqlite-movie-list?style=plastic)
+
 A Python web app that uses the Flask framework and SQLite database for data persistence to store a users top 10 movies based on the entered rating out of 10. Utilized SQLAlchemy/SQL and Flask to practice decorators, routes, and database connectivity. Although not deployed, the project served as a valuable practice exercise for understanding web development concepts and building robust backend functionality. Strengthened skills in web development frameworks, database connectivity, and data persistence using Flask and SQLAlchemy.
 
 #### Edit a moive's rating or review
