@@ -2,6 +2,22 @@
 
 This is a Python web app that uses the Flask framework that uses a SQLite DB to persist the data. This isn't a deployed app, but it is good use for practice of SQLAlchemy/SQL and the Flask framework. It allowed me and would allowed others to get an understating on decorators, routes and connecting to a database.
 
+#### Edit a moive's rating or review
+https://user-images.githubusercontent.com/104288486/232853071-743c8410-80ae-4e53-ad81-bfe850db7fad.mov
+
+
+
+
+#### Delete a movie from database
+https://user-images.githubusercontent.com/104288486/232853656-d32b47ad-f72c-49ba-af00-998081f2ae99.mov
+
+
+
+
+#### Add movie to database
+https://user-images.githubusercontent.com/104288486/232859149-4f54e0aa-d034-4394-bdaf-30881de1c10d.mov
+
+
 ## Requirements
 
 Installing from the [requirements.txt](./requirements.txt) handles most of the requirements, but you will also need to make sure to have a [The Movie DB](https://www.themoviedb.org) developer account to access an API key to complete the searches.
