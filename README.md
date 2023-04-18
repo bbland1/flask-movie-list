@@ -1,6 +1,6 @@
 # Python (Flask) Web App with SQLite Database
 
-A Python web app that uses the Flask framework and SQLite database for data persistence. Utilized SQLAlchemy/SQL and Flask to practice decorators, routes, and database connectivity. Although not deployed, the project served as a valuable practice exercise for understanding web development concepts and building robust backend functionality. Strengthened skills in web development frameworks, database connectivity, and data persistence using Flask and SQLAlchemy.
+A Python web app that uses the Flask framework and SQLite database for data persistence to store a users top 10 movies based on the entered rating out of 10. Utilized SQLAlchemy/SQL and Flask to practice decorators, routes, and database connectivity. Although not deployed, the project served as a valuable practice exercise for understanding web development concepts and building robust backend functionality. Strengthened skills in web development frameworks, database connectivity, and data persistence using Flask and SQLAlchemy.
 
 #### Edit a moive's rating or review
 https://user-images.githubusercontent.com/104288486/232853071-743c8410-80ae-4e53-ad81-bfe850db7fad.mov
